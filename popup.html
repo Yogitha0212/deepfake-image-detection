@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Deepfake Image Detector</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <div id="container">
+      <h1>Deepfake Image Detector</h1>
+      <input type="file" id="fileInput" accept="image/*" />
+      <button id="analyzeBtn">Analyze</button>
+      <p id="status"></p>
+      <div id="result">
+        <p id="label"></p>
+        <p id="prob"></p>
+      </div>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
