@@ -74,7 +74,7 @@ deepfake-chrome-extension/
 
 ## 📊 Dataset
 
-The model was trained on approximately 2200 images consisting of real and deepfake samples.
+The model was trained on approximately 22200 images consisting of real and deepfake samples.
 
 Due to repository size limitations, the dataset is not included in this repository.
 
